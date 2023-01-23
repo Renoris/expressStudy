@@ -1,0 +1,29 @@
+{
+  "name": "codeitstudy",
+  "version": "1.0.0",
+  "description": "코드잇스터디",
+  "main": "index.js",
+  "scripts": {
+    "start" :"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "migrate" : "sequelize db:migrate",
+    "seed": "sequelize db:seed:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renoris/expressStudy.git"
+  },
+  "author": "renoris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renoris/expressStudy/issues"
+  },
+  "homepage": "https://github.com/Renoris/expressStudy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0",
+    "sequelize-cli": "^6.5.2"
+  }
+}
